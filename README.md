@@ -2,7 +2,7 @@
 
 <img src="./assets/css/images/preview.png">
 
-Essa é a solução para o desafio [Pricing component with toggle challenge do Frontend Mentor](). Os desafios do [Frontend Mentor](https://www.frontendmentor.io/challenges/pricing-component-with-toggle-8vPwRMIC) ajudam a melhorar habilidades de codificação através da construção de projetos realistas.
+Essa é a solução para o desafio [Pricing component with toggle challenge do Frontend Mentor](https://tatyanepgoncalves.github.io/Pricing-Component/). Os desafios do [Frontend Mentor](https://www.frontendmentor.io/challenges/pricing-component-with-toggle-8vPwRMIC) ajudam a melhorar habilidades de codificação através da construção de projetos realistas.
 
 
 ## Índice
@@ -26,7 +26,7 @@ Os usuários são capazes de:
 - Elementos Interativo;
 
 ### Links
-- [Soluçao]()
+- [Soluçao](https://tatyanepgoncalves.github.io/Pricing-Component/)
 - [Repositório do GitHub](https://github.com/tatyanepgoncalves/Pricing-Component)
 
 
