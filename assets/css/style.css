@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
+* {
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  width: 100%;
+  height: 100vh;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 100%;
+  min-height: 100vh;
+  background-color: hsl(240, 78%, 98%);
+  background-image: url("./images/bg-bottom.svg"), url("./images/bg-top.svg");
+  background-repeat: no-repeat, no-repeat;
+  background-position: 0% 100%, 100% 0%;
+  background-size: 18rem, 15rem;
+}
+.container h1 {
+  text-align: center;
+  color: hsl(233, 13%, 49%);
+  font-size: 1.5rem;
+  padding: 2rem 0;
+}
+.container h2,
+.container p {
+  font-size: 1rem;
+}
+.container h3 {
+  font-size: 3.9rem;
+  padding: 1rem 3rem;
+}
+.container h4 {
+  font-size: 3.9rem;
+  padding: 1rem 3rem;
+  display: none;
+}
+.container .mode {
+  display: flex;
+  color: hsl(234, 14%, 74%);
+  justify-content: center;
+  align-items: center;
+}
+.container .mode .trilho {
+  background-color: hsl(237, 63%, 64%);
+  width: 3rem;
+  height: 1.5rem;
+  margin: 0 1.2rem;
+  border-radius: 0.938rem;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.container .mode .trilho .indicador {
+  width: 1.3rem;
+  height: 1.3rem;
+  background-color: #fff;
+  border-radius: 50%;
+  transform: scale(0.9);
+  transform: 0.5s;
+}
+.container .cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  margin: 2rem auto;
+  text-align: center;
+}
+.container .cards .card-left, .container .cards .card-middle, .container .cards .card-right {
+  padding: 1.3rem;
+  width: 100%;
+  background-color: #fff;
+  box-shadow: 0px 0px 19px -8px rgba(0, 0, 0, 0.75);
+}
+.container .cards .card-middle {
+  padding: 3rem 1.3rem;
+  background: linear-gradient(hsl(236, 72%, 79%), hsl(237, 63%, 64%));
+  color: #fff;
+  border-radius: 10px;
+}
+.container .cards .card-left p, .container .cards .card-middle p, .container .cards .card-right p {
+  padding: 1rem 0;
+}
+.container .cards .card-left p, .container .cards .card-right p {
+  color: hsl(233, 13%, 49%);
+}
+.container .cards .card-left {
+  border-radius: 10px 0 0 10px;
+}
+.container .cards .card-right {
+  border-radius: 0 10px 10px 0;
+}
+.container .cards .card-left hr, .container .cards .card-middle hr, .container .cards .card-right hr {
+  width: 80%;
+  margin: auto;
+  opacity: 0.2;
+}
+.container .cards button {
+  width: 85%;
+  margin: 1.5rem auto 0.5rem auto;
+  padding: 0.8rem;
+  cursor: pointer;
+  transition: 0.3s;
+  color: #fff;
+  background-color: hsl(237, 63%, 64%);
+  border: none;
+  border-radius: 0.313rem;
+  text-transform: uppercase;
+}
+.container .cards button:hover {
+  color: hsl(237, 63%, 64%);
+  border: 1px solid hsl(237, 63%, 64%);
+  background-color: transparent;
+}
+.container .cards .card-middle button {
+  color: hsl(237, 63%, 64%);
+  background-color: #fff;
+}
+.container .cards .card-middle button:hover {
+  color: #fff;
+  background-color: transparent;
+  border: 1px solid #fff;
+}
+
+@media only screen and (max-width: 760px) {
+  .cards {
+    flex-direction: column;
+  }
+  .cards h3,
+  .cards h4 {
+    font-size: 3rem;
+  }
+  .card-left, .card-middle, .card-right {
+    margin: 1rem;
+    border-radius: 10px;
+    width: 80%;
+  }
+}/*# sourceMappingURL=style.css.map */
