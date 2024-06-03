@@ -15,7 +15,7 @@ Essa é a solução para o desafio [Pricing component with toggle challenge do F
     - [O que aprendi](#o-que-aprendi)
     - [Desenvolvimento contínuo](#desenvolvimento-contínuo)
 - [Autor](#autor)
-- [Agradecimentos](#agradecimentos)
+
 
 ## Visão geral
 ### O desafio
